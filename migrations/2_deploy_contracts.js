@@ -10,7 +10,7 @@ module.exports = function(deployer, network, accounts) {
   const endTime = startTime + (86400 * 20)
   const rate = new web3.BigNumber(1000)
   const wallet = accounts[0]
-  const cap = 1000000
+  const cap = new web3.BigNumber(100000000000000000000000000)
 
   // This deploy does not deploy our coin. It deploys SampleCoinCrowdsale,
   // which will create our coin upon purchase
