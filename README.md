@@ -1,4 +1,4 @@
-# A sample Ethereum coin creation contract and capped crowdsale contract built using Truffle
+# A sample ERC20 coin creation contract and capped crowdsale contract built using Truffle/OpenZeppelin
 
 ### Project setup
 
